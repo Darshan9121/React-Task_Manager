@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import Category from "./components/Cateory"
-import Tasks from "./components/Tasks"
+// import logo from './logo.svg';
+// import './App.css';
+import Category from "./Cateory"
+import Tasks from "./Tasks"
 
 
 function Home() {
