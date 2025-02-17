@@ -9,7 +9,7 @@ function App() {
   return (  
     <BrowserRouter basename='React-Task_Manager'>
        <Routes>
-       <Route path="/" element={<Home />} index />
+       <Route path="/" element={<Home/>} index />
        <Route path="*" element={<h1>Invalid URL...</h1>} />
        </Routes>
       </BrowserRouter>
