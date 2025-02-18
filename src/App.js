@@ -7,7 +7,7 @@ import Home from './components/Home';
 
 function App() {
   return (  
-    <BrowserRouter basename='React-Task_Manager'>
+    <BrowserRouter basename='/React-Task_Manager'>
        <Routes>
        <Route path="/" element={<Home/>} index />
        <Route path="*" element={<h1>Invalid URL...</h1>} />
